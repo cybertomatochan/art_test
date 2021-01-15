@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="test" id='test'>
+           <h1 id="que_text" class="test-header">Q</h1>
+           <div id="que_img" ></div>
+            <ul>
+                <li><input type="radio" id='a' name='answer' class="ans">
+                    <label for="a" id="a_text">answer</label>
+                </li>
+                <li><input type="radio" id='b' name='answer' class="ans">
+                    <label for="b" id="b_text">answer</label>
+                </li>
+                <li><input type="radio" id='c' name='answer' class="ans"> 
+                    <label for="c" id="c_text">answer</label>
+                </li>
+                <li><input type="radio" id='d' name='answer' class="ans">
+                    <label for="d" id="d_text">answer</label>
+                </li>
+            </ul> 
+
+        <button id="submitButton">下一題</button>
+    </div>
+
+    <div class="hide learnMore" id="learnMore">
+        <h1>恭喜您完成測試！ 您總共獲得 <span class="score" id="finalScore"></span> 分。</h1>
+        <ul id="analyze">
+            <div>
+                <li class="analyze"></li>
+                <h5 class="data"></h5>
+            </div>
+            <div>
+                <li class="analyze"></li>
+                <h5 class="data"></h5>
+            </div>
+            <div>
+                <li class="analyze"></li>
+                <h5 class="data"></h5>
+            </div>
+            <div>
+                <li class="analyze"></li>
+                <h5 class="data"></h5>
+            </div>
+            <div>
+                <li class="analyze"></li>
+                <h5 class="data"></h5>
+            </div>
+            
+        </ul>
+    </div>
+</body>
+    <script src="all.js"></script>
+</html>

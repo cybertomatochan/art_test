@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("https://collectionapi.metmuseum.org/api/collection/v1/iiif/45434/134438/main-image");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1vh;
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.test{
+    width: 50%;
+    min-height: 500px;
+    border-radius: 15px;
+    background-color:rgba(250, 250, 250, 0.8);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+img{
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto; 
+}
+
+h1{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(99, 143, 231);
+    min-height: 3rem ;
+    width: 100%;
+    cursor: pointer;
+    display: block;   
+}
+
+button:hover{
+    background-color: rgb(82, 112, 172);
+
+}
+
+
+
+.learnMore{
+    width: 70%;
+    border-radius: 15px;
+    background-color:rgba(250, 250, 250, 0.8);
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+.learnMore ul{
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+}
+
+.analyze{
+    /* background-image: url("https://collectionapi.metmuseum.org/api/collection/v1/iiif/45434/134438/main-image"); */
+    height:300px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns:auto 75% auto;
+    place-items: center;
+    cursor: pointer;
+}
+.right{
+    box-shadow: 0px 0px 20px 5px rgb(135, 207, 135);
+}
+.wrong{
+    box-shadow: 0px 0px 20px 5px  rgb(168, 70, 108);
+}
+.data{
+text-align: center;
+}
+.hide{
+    display: none;
+}
