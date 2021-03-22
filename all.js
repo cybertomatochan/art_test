@@ -3,7 +3,7 @@ const allQue =[
         que:'請問該圖作者是哪位藝術家?',
         title:'Wheat Field with Cypresses',
         painter:'梵谷',
-        img:'https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/796067/main-image',
+        img:'img/testPic1.png',
         a:'高更',
         b:'莫內',
         c:'米開朗基羅',
